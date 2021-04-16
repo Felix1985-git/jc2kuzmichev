@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <web-app id="WebApp_ID" version="2.4"
          xmlns="http://java.sun.com/xml/ns/j2ee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -25,11 +26,6 @@
         <jsp-file>/WEB-INF/jsp/bye.jsp</jsp-file>
     </servlet>
 
-    <servlet>
-        <servlet-name>FrontWeb</servlet-name>
-        <jsp-file>/WEB-INF/jsp/front.jsp</jsp-file>
-    </servlet>
-
     <servlet-mapping>
         <servlet-name>HelloWeb</servlet-name>
         <url-pattern>/hello</url-pattern>
@@ -43,12 +39,5 @@
     </servlet-mapping>
 
     <!--    localhost:8080/application/bye-->
-
-    <servlet-mapping>
-        <servlet-name>FrontWeb</servlet-name>
-        <url-pattern>/front</url-pattern>
-    </servlet-mapping>
-
-    <!--    localhost:8080/application/FrontController-->
 
 </web-app>
